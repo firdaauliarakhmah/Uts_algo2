@@ -1,0 +1,25 @@
+Buatlah data matrik dengan djikstra algorithm yang mencerminkan korelasi antara pertemanan dalam 
+facebook dengan data seperti dibawah ini : 
+
+        like    comments    share
+John       4        101         8
+rudi       2        302         10
+shinta     50       430         45
+dody       8        106         9
+
+
+menjadi : 
+
+
+        like    comments    share
+John       1           1        1
+rudi       1           1        1   
+shinta     1           1        1
+dody       1           1        1
+
+
+john ke like : 1    john ke comments : 1      john ke share : 1
+rudi ke like : 1    rudi ke comments : 1      rudi ke share : 1
+shinta ke like : 1  shinta ke comments : 1    shinta ke share : 1
+dody ke like : 1    dody ke comments : 1      dody ke share : 1
+
